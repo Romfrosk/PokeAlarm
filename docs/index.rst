@@ -14,38 +14,49 @@ know of any rare spawns or raids.
 
 
 .. toctree::
-    :titlesonly:
+   :titlesonly:
    :maxdepth: 1
-   :caption: Getting Started:
+   :caption: Getting Started
+   :glob:
 
    getting-started/installation
-   getting-started/FAQ
+   getting-started/faq
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
-   :caption: Configuration:
+   :caption: Configuration
+   :glob:
 
    configuration/server-settings
-   configuration/events/index
-   configuration/filters/index
-   configuration/alarms/index
-   configuration/Managers
-   configuration/Geofences
-   configuration/Rules-Overview
+   configuration/managers
+   configuration/rules-overview
+   configuration/geofences
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
-   :caption: Guides:
+   :caption: Guides
    :glob:
 
-   guides/*
+   Getting Started <guides/getting-started-guide>
+   JSON Formatting Help <guides/json-formatting>
+   3.5 -> 3.6 Alarm Upgrade Tool <guides/upgrade-tool>
+   Bug Reports / Feedback <guides/bug-feedback>
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 1
-   :caption: Miscellaneous:
+   :caption: Other
    :glob:
 
-   miscellaneous/*
+   Webhook Standards <miscellaneous/webhook-standard>
+   Webhook Tester <miscellaneous/webhook-tester>
+   Patch Notes <miscellaneous/patch-notes>
+   Caching <miscellaneous/object-caching>
+   Docker <miscellaneous/docker>
+   Location Services <miscellaneous/location-services>
+   Contributing <miscellaneous/contributing>
 
 
 Indices and tables
